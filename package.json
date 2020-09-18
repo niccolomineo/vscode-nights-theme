@@ -1,0 +1,35 @@
+{
+    "name": "nights",
+    "displayName": "Nights Theme",
+    "description": "A theme extension matching the IntelliJ syntax colour scheme with improved VSCode Dark+ UI colours.",
+    "version": "1.1.7",
+    "publisher": "niccolomineo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/niccolomineo/vscode-nights-theme"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nights",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nights-color-theme.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "876cfebe-31e6-49b1-97ba-22801a7d724d",
+        "publisherDisplayName": "Niccolò Mineo",
+        "publisherId": "44dc1d1e-6c73-4187-a8e2-e3625069c657"
+    },
+    "dependencies": {
+        "vsce": "^1.85.1"
+    }
+}
